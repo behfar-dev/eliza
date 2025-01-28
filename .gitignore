@@ -1,9 +1,6 @@
 node_modules
 /out
 
-.env
-.env.production
-.env.local
 .env_main
 concatenated-output.ts
 embedding-cache.json
@@ -91,3 +88,4 @@ lit-config.json
 
 # Configuration to exclude the extra and local_docs directories
 extra
+config.bat
