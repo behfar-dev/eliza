@@ -23,8 +23,8 @@
   },
   "scripts": {
     "build": "tsup --format esm --dts",
-    "dev": "tsup --format esm --dts --watch",
-    "start": "tsup --format esm --dts",
+    "dev": "node api.js && tsup --format esm --dts --watch",
+    "start": "node api.js && tsup --format esm --dts",
     "lint": "eslint . --fix"
   },
   "peerDependencies": {}
