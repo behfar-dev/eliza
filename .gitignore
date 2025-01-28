@@ -1,9 +1,6 @@
 node_modules
 /out
 
-.env
-.env.production
-.env.local
 .env_main
 concatenated-output.ts
 embedding-cache.json
@@ -63,3 +60,4 @@ agent/content
 eliza.manifest
 eliza.manifest.sgx
 eliza.sig
+config.bat
