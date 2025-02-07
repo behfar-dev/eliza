@@ -1,9 +1,6 @@
 node_modules
 /out
 
-.env
-.env.production
-.env.local
 .env_main
 concatenated-output.ts
 embedding-cache.json
@@ -100,3 +97,4 @@ ton_nft_images/*
 
 packages/docs/api/*
 packages/*/dist/*
+config.bat
