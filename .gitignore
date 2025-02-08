@@ -1,9 +1,6 @@
 node_modules
 /out
 
-.env
-.env.production
-.env.local
 .env_main
 concatenated-output.ts
 embedding-cache.json
@@ -106,3 +103,4 @@ packages/*/dist/*
 
 **/.docusaurus/**
 **/docs/build/**
+config.bat
