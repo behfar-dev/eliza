@@ -1,9 +1,6 @@
 node_modules
 /out
 
-.env
-.env.production
-.env.local
 .env_main
 concatenated-output.ts
 embedding-cache.json
@@ -11,7 +8,6 @@ embedding-cache.json
 node-compile-cache
 
 .idea
-.vscode
 .zed
 .DS_Store
 
@@ -92,3 +88,6 @@ packages/*/dist/*
 **/docs/build/**
 
 **lock**
+
+packages/agent/local_**
+config.bat
